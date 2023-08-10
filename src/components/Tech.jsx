@@ -1,5 +1,5 @@
-import React from 'react'
-
+import { BallCanvas } from './canvas';
+import { SectionWrapper } from '../../'
 const Tech = () => {
   return (
     <div>Tech</div>
