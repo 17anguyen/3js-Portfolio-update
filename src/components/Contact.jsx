@@ -78,7 +78,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder='What is your name?'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-[#B095B9] text-white rounded-lg outlined-none border-none font-medium'
             />
           </lable>
           <lable className='flex flex-col'>
@@ -89,23 +89,23 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder='What is your email?'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-[#B095B9] text-white rounded-lg outlined-none border-none font-medium'
             />
           </lable>
           <lable className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+            <span className='text-white font-medium mb-4'>Write a message </span>
             <textarea
               rows='7'
               name='message'
               value={form.message}
               onChange={handleChange}
               placeholder='What would you like to say?'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-[#B095B9] text-white rounded-lg outlined-none border-none font-medium'
             />
           </lable>
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
+            className='bg-tertiary py-3 px-8 outline-none w-fit text-[#B095B9] font-bold shadow-md shadow-primary rounded-xl'
           >
             {loading ? 'Sending...' : 'Send'}
           </button>
