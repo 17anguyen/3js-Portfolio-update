@@ -50,10 +50,10 @@ const services = [
         title: "React Native Developer",
         icon: mobile,
     },
-    // {
-    //     title: "Front End Developer",
-    //     icon: backend,
-    // },
+    {
+        title: "Front End Design",
+        icon: backend,
+    },
     {
         title: "UI Design",
         icon: creator,
@@ -121,7 +121,7 @@ const experiences = [
         company_name: "Freelance",
         icon: backend,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "January 2020 - Present",
         points: [
             "Developing and maintaining web applications clients needs.",
             "Collaborating with clients to create high-quality products.",
@@ -134,12 +134,12 @@ const experiences = [
         company_name: "University of Washington",
         icon: meta,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "June 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Develop a responsive,  user-friendly, intuitive, and secure full-stack website from with interactive features to cross-browser optimize traffic and user experience  using React, Node.js, and Express.",
+            "Collaborate on a self-managed team of 4 developers to create high-quality products.",
+            "Implemented automated testing using Jest frameworks for a REST website application",
+            "Developed and deployed a fully-functioning web application using React, Node.js, and MySQL in 10 days.",
         ],
     },
     // {

@@ -7,14 +7,14 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 import user from '../assets/user.jpg';
-
+import { Blocks } from './canvas';
 
 import { SectionWrapper } from '../hoc'
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full orange-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -53,10 +53,11 @@ const About = () => {
       </div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] mx-auto'
       >
-        I'm a skilled developer with experience with Javascript and Python, and frameworks like React, Node.js, and Three.js. I collaborate closely with clients to create stunning, scalable, and user-friendly solutions to bring your vision to life. Lets build your dream together!
 
+        I'm a web developer with a mastery with Javascript, and frameworks like React, Node.js, and Three.js.
+        I collaborate closely with clients to create stunning, scalable, and user-friendly solutions to bring your vision to life.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
