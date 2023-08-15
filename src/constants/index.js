@@ -5,6 +5,7 @@ import {
     web,
     javascript,
     typescript,
+    sql,
     html,
     css,
     reactjs,
@@ -72,10 +73,10 @@ const technologies = [
         name: "JavaScript",
         icon: javascript,
     },
-    // {
-    //     name: "TypeScript",
-    //     icon: typescript,
-    // },
+    {
+        name: "MySQL",
+        icon: sql,
+    },
     {
         name: "React JS",
         icon: reactjs,
