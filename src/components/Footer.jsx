@@ -22,7 +22,7 @@ const Footer = () => {
                                 } hover:text-white text-[18px] font-medium cursor-pointer`}
                             onClick={() => setActive(footer.name)}
                         >
-                            <a href={`#${footer.URL}`}>
+                            <a onClick={() => window.open(footer.URL, "_blank")}>
                                 <img
                                     src={footer.icon}
                                     alt={footer.name}
@@ -31,7 +31,7 @@ const Footer = () => {
                         </li>
                     ))}
                     <li>
-                        <a href={pdf} download>
+                        <a>
                             <img
                                 src={resume}
                                 alt="resume"
