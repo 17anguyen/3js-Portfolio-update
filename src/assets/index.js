@@ -41,7 +41,7 @@ import portfolio from "./usage/portfolio.gif";
 import githublogo from "./footer/github.png"
 import linkedin from "./footer/linkedin.png"
 import resume from "./footer/resume.png"
-import pdf from "./footer/resume.pdf"
+import pdf from "./footer/resumefile.pdf"
 
 export {
   logo,

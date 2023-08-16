@@ -249,7 +249,7 @@ const projects = [
     {
         name: "DoodleDash",
         description:
-            "Web application that allows multiple players to join a room and guess a randomized word before the time ends. Once a player selects to end the game the winner is announced!",
+            "A live, multiplayer web game that allows players to join a room and guess a randomized word based on a randomly selected player’s drawing on a live virtual white board before the time ends. Once players select to end the game the player with the most wins is announced!",
         tags: [
             {
                 name: "react",
@@ -323,7 +323,7 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "HTML",
+                name: "Google Fonts",
                 color: "pink-text-gradient",
             },
         ],
