@@ -29,7 +29,11 @@ import {
     eventplan,
     juneportfolio,
     onebyfaith,
-    portfolio
+    portfolio,
+    githublogo,
+    linkedin,
+    resume,
+    pdf
 } from "../assets";
 
 export const navLinks = [
@@ -45,6 +49,24 @@ export const navLinks = [
         id: "contact",
         title: "Contact",
     },
+];
+
+export const footerLinks = [
+    {
+        icon: githublogo,
+        name: "Github",
+        URL: "https://github.com/17anguyen",
+    },
+    {
+        icon: linkedin,
+        name: "Linkedin",
+        URL: "https://www.linkedin.com/in/alivia-thomas/",
+    },
+    // {
+    //     icon: resume,
+    //     name: "Resume",
+    //     URL: pdf,
+    // },
 ];
 
 const services = [
@@ -210,7 +232,7 @@ const projects = [
     {
         name: "One By Faith",
         description:
-            "Web-based platform that allows users to search, book, and manage individual spiritual services online and in person as well as group events, providing a convenient and efficient solution to manage sscheduling and take payment.",
+            "Web-based platform that allows users to search, book, and manage individual spiritual services online and in person as well as group events, providing a convenient and efficient solution to manage scheduling and take payment.",
         tags: [
             {
                 name: "Square",
@@ -269,7 +291,7 @@ const projects = [
     {
         name: "ChinguTalk",
         description:
-            "A social media platform with with account creation and modificaiton. Users are logged into a database based on shared interests and interests can be searched to find friends! The deployed link is disabled due to heroku hosting costs.",
+            "A social media application with with account creation and modificaiton. Users are logged into a database based on shared interests and interests can be searched to find friends! The deployed link is disabled due to heroku hosting costs.",
         tags: [
             {
                 name: "Node.js",
@@ -280,7 +302,7 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "sequelize",
+                name: "Express Handlebars",
                 color: "pink-text-gradient",
             },
         ],
@@ -290,7 +312,7 @@ const projects = [
     {
         name: "Event Planner",
         description:
-            "This project displays my progress with understanding data persistence and creating multiple usable pages. This application is connected to Google APIs for location data and Calandar access to add events in the application to your calendar!",
+            "This project displays my progress with understanding data persistence and creating multiple usable pages. This application is connected to Google APIs for location data and Calandar access to add events in the application to your calendar and send invites to listed attendees!",
         tags: [
             {
                 name: "Google Location and Calendar API",

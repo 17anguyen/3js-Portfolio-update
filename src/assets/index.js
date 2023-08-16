@@ -38,6 +38,11 @@ import juneportfolio from "./usage/JunePortfolio.gif";
 import onebyfaith from "./usage/obf.gif";
 import portfolio from "./usage/portfolio.gif";
 
+import githublogo from "./footer/github.png"
+import linkedin from "./footer/linkedin.png"
+import resume from "./footer/resume.png"
+import pdf from "./footer/resume.pdf"
+
 export {
   logo,
   backend,
@@ -73,5 +78,9 @@ export {
   eventplan,
   juneportfolio,
   onebyfaith,
-  portfolio
+  portfolio,
+  githublogo,
+  linkedin,
+  resume,
+  pdf
 };
