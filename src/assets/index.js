@@ -31,6 +31,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import chingu from "./usage/chingu.gif";
+import DoodleDash from "./usage/DoodleDash.gif";
+import eventplan from "./usage/eventplan.gif";
+import juneportfolio from "./usage/JunePortfolio.gif";
+import onebyfaith from "./usage/obf.gif";
+import portfolio from "./usage/portfolio.gif";
+
 export {
   logo,
   backend,
@@ -61,4 +68,10 @@ export {
   jobit,
   tripguide,
   sql,
+  chingu,
+  DoodleDash,
+  eventplan,
+  juneportfolio,
+  onebyfaith,
+  portfolio
 };

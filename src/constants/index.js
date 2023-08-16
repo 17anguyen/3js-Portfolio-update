@@ -24,6 +24,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    chingu,
+    DoodleDash,
+    eventplan,
+    juneportfolio,
+    onebyfaith,
+    portfolio
 } from "../assets";
 
 export const navLinks = [
@@ -215,7 +221,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: onebyfaith,
         source_code_link: "https://www.onebyfaith.co/",
     },
     {
@@ -236,13 +242,34 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: DoodleDash,
         source_code_link: "https://github.com/17anguyen/notPictionary#tech",
+    },
+    {
+        name: "June Portfolio",
+        description:
+            "This portfolio was built at the end of my class to display my understanding of developing a full stack web application. This was an unfinished design submitted as a final assignment with the intentiont to be redesigned!",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "bootstrap",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mySQL",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: juneportfolio,
+        source_code_link: "https://github.com/17anguyen/class-grad-portfolio-jun2023",
     },
     {
         name: "ChinguTalk",
         description:
-            "A social media platform with with account creation and modificaiton. Users are logged into a database based on shared interests and interests can be searched to find friends!",
+            "A social media platform with with account creation and modificaiton. Users are logged into a database based on shared interests and interests can be searched to find friends! The deployed link is disabled due to heroku hosting costs.",
         tags: [
             {
                 name: "Node.js",
@@ -257,8 +284,46 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: chingu,
         source_code_link: "https://github.com/17anguyen/chingu-talk",
+    },
+    {
+        name: "Event Planner",
+        description:
+            "This project displays my progress with understanding data persistence and creating multiple usable pages. This application is connected to Google APIs for location data and Calandar access to add events in the application to your calendar!",
+        tags: [
+            {
+                name: "Google Location and Calendar API",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Materialize",
+                color: "green-text-gradient",
+            },
+            {
+                name: "HTML",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: eventplan,
+        source_code_link: "https://github.com/17anguyen/event-planner",
+    },
+    {
+        name: "First Class Portfolio",
+        description:
+            "The first portfolio I built for class to display my understanding of HTML and CSS!",
+        tags: [
+            {
+                name: "CSS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "HTML",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: portfolio,
+        source_code_link: "https://github.com/17anguyen/Portfolio-Project",
     },
 ];
 

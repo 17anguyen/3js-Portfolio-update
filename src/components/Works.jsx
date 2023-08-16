@@ -75,7 +75,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px]"
         >
-          The following Projects showcase my skills and experience through real world examples of my work. Each project is briefly described with links to code repositiories and live demos in it. It reflexts my ability to solve complex problems, work with different technologies, and manage projects effectively.
+          The following Projects showcase my skills and experience through real world examples of my work. Each project is briefly described with links to code repositiories. It reflexts my ability to solve complex problems, work with different technologies, and manage projects effectively. Walk through my gallery of growth as a developer adding technologies to my toolbox!
+          <br className='sm:block hidden' />
+          <br className='sm:block hidden' />
+          <br className='sm:block hidden' />
+          Click on the round icon in the corner of the cards to visit the repositiories for each project!
         </motion.p>
       </div>
 
