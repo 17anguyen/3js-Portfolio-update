@@ -65,8 +65,8 @@ export const footerLinks = [
     // {
     //     icon: resume,
     //     name: "Resume",
-    //     URL: pdf,
-    // },
+    //     URL:pdf,
+    // }, 
 ];
 
 const services = [
