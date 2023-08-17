@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { footerLinks } from "../constants";
-import { logo, menu, close } from "../assets";
 import { pdf, resume } from "../assets";
 
 const Footer = () => {
@@ -31,7 +30,7 @@ const Footer = () => {
                         </li>
                     ))}
                     <li>
-                        <a>
+                        <a href={pdf} download={pdf}>
                             <img
                                 src={resume}
                                 alt="resume"
