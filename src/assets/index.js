@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import sql from "./tech/sql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +30,18 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import chingu from "./usage/chingu.gif";
+import DoodleDash from "./usage/DoodleDash.gif";
+import eventplan from "./usage/eventplan.gif";
+import juneportfolio from "./usage/JunePortfolio.gif";
+import onebyfaith from "./usage/obf.gif";
+import portfolio from "./usage/portfolio.gif";
+
+import githublogo from "./footer/github.png"
+import linkedin from "./footer/linkedin.png"
+import resume from "./footer/resume.png"
+import pdf from "./footer/resumefile.pdf"
 
 export {
   logo,
@@ -59,4 +72,15 @@ export {
   carrent,
   jobit,
   tripguide,
+  sql,
+  chingu,
+  DoodleDash,
+  eventplan,
+  juneportfolio,
+  onebyfaith,
+  portfolio,
+  githublogo,
+  linkedin,
+  resume,
+  pdf
 };
