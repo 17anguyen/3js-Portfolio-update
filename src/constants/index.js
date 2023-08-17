@@ -210,21 +210,27 @@ success of your organization.`,
         company: "University of Washington",
         image: "https://media.licdn.com/dms/image/D5635AQEkxAdauaPuWA/profile-framedphoto-shrink_200_200/0/1673399550731?e=1692680400&v=beta&t=msKfpUj2GT45V4zBNgkxs854h5WU1tHd8aN89u7ik2A",
     },
+    // {
+    //     testimonial:
+    //         "...",
+    //     name: "Imani Glass",
+    //     designation: "CEO",
+    //     company: "One by Faith",
+    //     image: "https://images.squarespace-cdn.com/content/v1/617367c002d4700da6c49b60/bbcdcb37-f9f8-4437-95e0-87b0b38bae3e/IMG_5958.jpg?format=1000w",
+    // },
     {
         testimonial:
-            "...",
-        name: "Imani Glass",
-        designation: "CEO",
-        company: "One by Faith",
-        image: "https://images.squarespace-cdn.com/content/v1/617367c002d4700da6c49b60/bbcdcb37-f9f8-4437-95e0-87b0b38bae3e/IMG_5958.jpg?format=1000w",
-    },
-    {
-        testimonial:
-            "...",
-        name: "Rubina Postma",
-        designation: "Artist",
-        company: "Rubina Postma Fine Arts",
-        image: "https://media.licdn.com/dms/image/D5603AQGMqPkmmIKPZQ/profile-displayphoto-shrink_200_200/0/1686009019470?e=1697673600&v=beta&t=WxRjhNx-yX771hFyFuKlMY1SXYX_k-2_AmUTTyM9mog",
+            `Alivia consistently demonstrated an exceptional grasp of the technical concepts covered,
+even at the demanding pace of the boot camp. She frequently posed thoughtful questions that highlighted her engagement with the
+material and her commitment to true comprehension rather than mere completion.
+            Additionally, Alivia was demonstrably a pleasure to work with. Her project groups
+consistently praised her for her pleasant demeanor, as well as her capability to lead and
+contribute to the project's overall direction. In one-on-one interactions, I similarly found
+her to be an enjoyable and productive collaborator.`,
+        name: "Henry Weigand",
+        designation: "Instructional Staff",
+        company: "EdX",
+        image: "https://media.licdn.com/dms/image/C4D03AQETMao6givDIA/profile-displayphoto-shrink_200_200/0/1651617415975?e=1697673600&v=beta&t=_CLO0LEsVmKrRjzYM_vBeg87tMUNDh87qu8-exXfsgM",
     },
 ];
 
