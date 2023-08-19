@@ -33,7 +33,13 @@ import {
     githublogo,
     linkedin,
     resume,
-    pdf
+    pdf,
+    chinguPoster,
+    doodlePoster,
+    plannerPoster,
+    junePoster,
+    obfPoster,
+    folio1Poster,
 } from "../assets";
 
 export const navLinks = [
@@ -249,7 +255,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: onebyfaith,
+        image: obfPoster,
+        video: onebyfaith,
         source_code_link: "https://www.onebyfaith.co/",
     },
     {
@@ -270,7 +277,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: DoodleDash,
+        image: doodlePoster,
+        video: DoodleDash,
         source_code_link: "https://github.com/17anguyen/notPictionary#tech",
     },
     {
@@ -291,7 +299,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: juneportfolio,
+        image: junePoster,
+        video: juneportfolio,
         source_code_link: "https://github.com/17anguyen/class-grad-portfolio-jun2023",
     },
     {
@@ -312,7 +321,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: chingu,
+        image: chinguPoster,
+        video: chingu,
         source_code_link: "https://github.com/17anguyen/chingu-talk",
     },
     {
@@ -333,7 +343,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: eventplan,
+        image: plannerPoster,
+        video: eventplan,
         source_code_link: "https://github.com/17anguyen/event-planner",
     },
     {
@@ -350,7 +361,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: portfolio,
+        image: folio1Poster,
+        video: portfolio,
         source_code_link: "https://github.com/17anguyen/Portfolio-Project",
     },
 ];

@@ -38,6 +38,13 @@ import juneportfolio from "./usage/JunePortfolio.gif";
 import onebyfaith from "./usage/obf.gif";
 import portfolio from "./usage/portfolio.gif";
 
+import chinguPoster from "./usage/posters/chingu-poster.png";
+import doodlePoster from "./usage/posters/doodledash-poster.png";
+import plannerPoster from "./usage/posters/planner-poster.png";
+import junePoster from "./usage/posters/juneportfolio-poster.png";
+import obfPoster from "./usage/posters/obf-poster.png";
+import folio1Poster from "./usage/posters/firstportfolio-poster.png";
+
 import githublogo from "./footer/github.png"
 import linkedin from "./footer/linkedin.png"
 import resume from "./footer/resume.png"
@@ -82,5 +89,11 @@ export {
   githublogo,
   linkedin,
   resume,
-  pdf
+  pdf,
+  chinguPoster,
+  doodlePoster,
+  plannerPoster,
+  junePoster,
+  obfPoster,
+  folio1Poster,
 };
