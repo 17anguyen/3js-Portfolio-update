@@ -6,74 +6,75 @@ import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from "../utils/motion";
-import { Suspense } from "react";
-import CanvasLoader from './Loader';
+import HoverVideoPlayer from 'react-hover-video-player';
 
 
 const ProjectCard = ({ index, name, description, tags, image, video, source_code_link }) => {
   return (
-
-    <Suspense fallback={CanvasLoader}>
-
-      <motion.div
-        variants={fadeIn('up', 'spring', index * 0.5, 0.75)} >
-        <Tilt
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450
-          }}
-          className='p-5 p-[1px] rounded-[20px] shadow-card sm:w-[360px] w-full orange-pink-gradient'
-        >
-          <div className="bg-tertiary rounded-[20px] py-2 px-2 min-h-[280px]">
-            <div
-              className="relative w-full h-[230px]">
-              <video
-                controls=""
-                poster={image}
-                alt={name}
-                className="w-full h-full object-cover rounded-2xl"
-              >
-                <source src={video} />
-              </video>
-              {/* <img
-                src={image}
-                alt={name}
-                className="w-full h-full object-cover rounded-2xl"
-              /> */}
-
-              {/* duplicate this block with a live URL */}
-              <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-                <div
-                  onClick={() => window.open
-                    (source_code_link, "_blank")}
-                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-                >
-                  <img
-                    src={github}
-                    alt="github"
-                    className="w-1/2 h-1/2 object-contain"
-                  />
+    <motion.div
+      variants={fadeIn('up', 'spring', index * 0.5, 0.75)} >
+      <Tilt
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450
+        }}
+        className='p-5 p-[1px] rounded-[20px] shadow-card sm:w-[360px] w-full orange-pink-gradient'
+      >
+        <div className="bg-tertiary rounded-[20px] py-2 px-2 min-h-[280px]">
+          <div
+            className="w-full h-[230px] rounded-2xl">
+            <HoverVideoPlayer
+              videoSrc={video}
+              pausedOverlay={
+                <img
+                  src={image}
+                  alt={name}
+                  style={{
+                    // Make the image expand to cover the video's dimensions
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                  }}
+                // className="w-full h-full object-cover rounded-2xl"
+                />
+              }
+              loadingOverlay={
+                <div className="loading-overlay">
+                  <div className="loading-spinner" />
                 </div>
+              }
+            />
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              <div
+                onClick={() => window.open
+                  (source_code_link, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={github}
+                  alt="github"
+                  className="w-1/2 h-1/2 object-contain  z-10"
+                />
               </div>
             </div>
-            <div className="mt-5">
-              <h3 className="text-white font-bold text-[24px]">{name}</h3>
-              <p className="mt-2 text-secondary text-[14px]">{description}</p>
-            </div>
-            <div className="mt-4 flex flex-wrap gap-2">
-              {tags.map((tag) => (
-                <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-                  #{tag.name}
-                </p>
-              ))}
-            </div>
-
+          </div>
+          <div className="mt-5">
+            <h3 className="text-white font-bold text-[24px]">{name}</h3>
+            <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          </div>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+                #{tag.name}
+              </p>
+            ))}
           </div>
 
-        </Tilt>
-      </motion.div>
-    </Suspense>
+        </div>
+
+      </Tilt>
+    </motion.div >
   )
 }
 
