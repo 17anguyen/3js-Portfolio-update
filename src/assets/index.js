@@ -31,12 +31,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import chingu from "./usage/chingu.gif";
-import DoodleDash from "./usage/DoodleDash.gif";
-import eventplan from "./usage/eventplan.gif";
-import juneportfolio from "./usage/JunePortfolio.gif";
-import onebyfaith from "./usage/obf.gif";
-import portfolio from "./usage/portfolio.gif";
+import chingu from "./usage/chingu.mp4";
+import DoodleDash from "./usage/DoodleDash.mp4";
+import eventplan from "./usage/eventplan.mp4";
+import juneportfolio from "./usage/JunePortfolio.mp4";
+import onebyfaith from "./usage/obf.mp4";
+import portfolio from "./usage/portfolio.mp4";
 
 import chinguPoster from "./usage/posters/chingu-poster.png";
 import doodlePoster from "./usage/posters/doodledash-poster.png";
