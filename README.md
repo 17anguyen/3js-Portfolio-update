@@ -1,6 +1,6 @@
 # Portfolio-Aug 2023
-<br/>
-##  Description
+
+## Description
 This is a rework of my portfolio following my graduation to reflect my knowledge in learning 3D model implimentation and Three.js and framer-motion library. 
 
 ### Deployed Link-
