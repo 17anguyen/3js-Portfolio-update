@@ -1,10 +1,9 @@
 # Portfolio-Aug 2023
 
-Making a fresh portfolio to reflect my knowledge in three.js and 3D integration! 
+## Description
+This is a rework of my portfolio following my graduation to reflect my knowledge in learning 3D model implimentation and Three.js and framer-motion library. 
+
+### Deployed Link-
+https://aliviathomas-portfolio.netlify.app/)https://aliviathomas-portfolio.netlify.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
