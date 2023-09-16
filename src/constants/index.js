@@ -208,7 +208,7 @@ success of your organization.`,
         name: "Eli Wood",
         designation: "Web Development Instructional Specialist",
         company: "University of Washington",
-        image: "https://media.licdn.com/dms/image/D5635AQEkxAdauaPuWA/profile-framedphoto-shrink_200_200/0/1673399550731?e=1692680400&v=beta&t=msKfpUj2GT45V4zBNgkxs854h5WU1tHd8aN89u7ik2A",
+        image: "https://media.licdn.com/dms/image/D5635AQEkxAdauaPuWA/profile-framedphoto-shrink_200_200/0/1673399550731?e=1695441600&v=beta&t=qcKb0ppptBHCCENj5pRyUNoS3SRXpmJ-lzSjdjSH-eg",
     },
     // {
     //     testimonial:
