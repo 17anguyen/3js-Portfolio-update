@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import { pdf } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -58,6 +59,9 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li className="text-[#69005A] hover:text-white text-[18px] font-medium cursor-pointer">
+            <a href={pdf} download={pdf}>Resume</a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>

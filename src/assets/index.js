@@ -48,7 +48,7 @@ import folio1Poster from "./usage/posters/firstportfolio-poster.png";
 import githublogo from "./footer/github.png"
 import linkedin from "./footer/linkedin.png"
 import resume from "./footer/resume.png"
-import pdf from "./footer/resumefile.pdf"
+import pdf from "./AliviaThomasResume.pdf"
 
 export {
   logo,
