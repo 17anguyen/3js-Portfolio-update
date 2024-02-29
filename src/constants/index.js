@@ -21,9 +21,7 @@ import {
     chingu,
     DoodleDash,
     eventplan,
-    juneportfolio,
     onebyfaith,
-    portfolio,
     githublogo,
     linkedin,
     resume,
@@ -31,9 +29,11 @@ import {
     chinguPoster,
     doodlePoster,
     plannerPoster,
-    junePoster,
     obfPoster,
-    folio1Poster,
+    helico,
+    helicoPoster,
+    zombie,
+    zombiePoster
 } from "../assets";
 
 export const navLinks = [
@@ -236,24 +236,6 @@ her to be an enjoyable and productive collaborator.`,
 
 const projects = [
     {
-        name: "One By Faith",
-        description:
-            "Web-based platform that allows users to search, book, and manage individual spiritual services online and in person as well as group events, providing a convenient and efficient solution to manage scheduling and take payment.",
-        tags: [
-            {
-                name: "Square",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "AcuityScheduling",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: obfPoster,
-        video: onebyfaith,
-        source_code_link: "https://www.onebyfaith.co/",
-    },
-    {
         name: "DoodleDash",
         description:
             "A live, multiplayer web game that allows players to join a room and guess a randomized word based on a randomly selected player’s drawing on a live virtual white board before the time ends. Once players select to end the game the player with the most wins is announced!",
@@ -276,26 +258,40 @@ const projects = [
         source_code_link: "https://github.com/17anguyen/notPictionary#tech",
     },
     {
-        name: "June Portfolio",
+        name: "One By Faith",
         description:
-            "This portfolio was built at the end of my class to display my understanding of developing a full stack web application. This was an unfinished design submitted as a final assignment with the intentiont to be redesigned!",
+            "Web-based platform that allows users to search, book, and manage individual spiritual services online and in person as well as group events, providing a convenient and efficient solution to manage scheduling and take payment.",
+        tags: [
+            {
+                name: "Square",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "AcuityScheduling",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: obfPoster,
+        video: onebyfaith,
+        source_code_link: "https://www.onebyfaith.co/",
+    },
+    {
+        name: "Zombie Ghost Games",
+        description:
+            "This is a web applicaiton built for a client in need of an ecommerse site to display his card games and provide the consumer with information.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "bootstrap",
-                color: "green-text-gradient",
-            },
-            {
                 name: "mySQL",
                 color: "pink-text-gradient",
             },
         ],
-        image: junePoster,
-        video: juneportfolio,
-        source_code_link: "https://github.com/17anguyen/class-grad-portfolio-jun2023",
+        image: zombiePoster,
+        video: zombie,
+        source_code_link: "https://zombieghostgames.com/",
     },
     {
         name: "ChinguTalk",
@@ -313,6 +309,10 @@ const projects = [
             {
                 name: "Express Handlebars",
                 color: "pink-text-gradient",
+            },
+            {
+                name: "bootstrap",
+                color: "green-text-gradient",
             },
         ],
         image: chinguPoster,
@@ -342,9 +342,9 @@ const projects = [
         source_code_link: "https://github.com/17anguyen/event-planner",
     },
     {
-        name: "First Class Portfolio",
+        name: "Helico",
         description:
-            "The first portfolio I built for class to display my understanding of HTML and CSS!",
+            "In my time as a start up operations manager I created this site for client aquisition, driving traffic, communicating information, and allowing scheduling",
         tags: [
             {
                 name: "CSS",
@@ -355,9 +355,9 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: folio1Poster,
-        video: portfolio,
-        source_code_link: "https://github.com/17anguyen/Portfolio-Project",
+        image: helicoPoster,
+        video: helico,
+        source_code_link: "https://www.heli-co.com/",
     },
 ];
 

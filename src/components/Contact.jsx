@@ -22,9 +22,7 @@ const Contact = () => {
     setForm({ ...form, [name]: value })
 
   }
-  // UlWl96jHPGVxSbwKK
-  // service_v9qrvym
-  // template_nv313nf
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);

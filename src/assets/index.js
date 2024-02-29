@@ -37,6 +37,8 @@ import eventplan from "./usage/eventplan.mp4";
 import juneportfolio from "./usage/JunePortfolio.mp4";
 import onebyfaith from "./usage/obf.mp4";
 import portfolio from "./usage/portfolio.mp4";
+import zombie from "./usage/zombieghost.mp4";
+import helico from "./usage/Helico.mp4";
 
 import chinguPoster from "./usage/posters/chingu-poster.png";
 import doodlePoster from "./usage/posters/doodledash-poster.png";
@@ -44,6 +46,8 @@ import plannerPoster from "./usage/posters/planner-poster.png";
 import junePoster from "./usage/posters/juneportfolio-poster.png";
 import obfPoster from "./usage/posters/obf-poster.png";
 import folio1Poster from "./usage/posters/firstportfolio-poster.png";
+import zombiePoster from "./usage/posters/zombiePoster.png";
+import helicoPoster from "./usage/posters/helicoPoster.png";
 
 import githublogo from "./footer/github.png"
 import linkedin from "./footer/linkedin.png"
@@ -51,6 +55,10 @@ import resume from "./footer/resume.png"
 import pdf from "./AliviaThomasResume.pdf"
 
 export {
+  zombie,
+  zombiePoster,
+  helico,
+  helicoPoster,
   logo,
   backend,
   creator,

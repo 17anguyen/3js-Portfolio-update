@@ -10,6 +10,7 @@ import user from '../assets/user.jpg';
 import { Blocks } from './canvas';
 
 import { SectionWrapper } from '../hoc'
+
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
